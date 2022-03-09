@@ -43,7 +43,7 @@ jobs:
         env:
           ECR_REGISTRY: 214067368354.dkr.ecr.ap-southeast-1.amazonaws.com
           ECR_REPOSITORY: demo-frontend
-          IMAGE_TAG: $latest
+          IMAGE_TAG: latest
         run: |
           echo "::set-output name=ecr_repository::$ECR_REPOSITORY"
           echo "::set-output name=image_tag::$IMAGE_TAG"
