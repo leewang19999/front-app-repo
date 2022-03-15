@@ -57,7 +57,7 @@ jobs:
       - name: Checkout kustomize repository
         uses: actions/checkout@v2
         with:
-          repository: leewnag1999/k8s-manifest-repo
+          repository: leewnag19999/k8s-manifest-repo
           ref: main
           token: ${{ secrets.ACTION_TOKEN }}
           path: k8s-manifest-repo
