@@ -58,7 +58,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: leewang19999/k8s-manifefst-repo
-          ref: main
+          ref: master
           token: ${{ secrets.ACTION_TOKEN }}
           path: k8s-manifest-repo
 
